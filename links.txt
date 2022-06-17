@@ -1,0 +1,7 @@
+TO download the mongoDB
+
+https://www.mongodb.com/try/download/community
+
+To use Mongoose
+
+https://mongoosejs.com/docs/guide.html
