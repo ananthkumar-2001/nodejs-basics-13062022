@@ -1,0 +1,8 @@
+show dbs
+use studentdb
+show collections
+db.student.find()
+db.student.find().pretty()
+db.student.insert({name: "johngalt", email: "john@ef.com", city: "Boston"})
+db.student.update({_id: ObjectId("62ac5ed11cd55f8758f263a7")},{$set: {name: "Tuan Bui"}})
+db.student.remove({_id: ObjectId("62ac67be845407ad5eb07fda")})
